@@ -63,7 +63,7 @@ public class BankAccount{
     }
 
     public void totalFunds(){
-        System.out.println("Checking Account: " + this.checkingBalance + " Savings Balance: " + this.savingsBalance);
+    System.out.println("Account Number: " + this.accountNumber + " | Checking Account: " + this.checkingBalance + " | Savings Balance: " + this.savingsBalance);
         double total = this.checkingBalance + this.savingsBalance;
         System.out.println("Total funds: " + total);
     }
