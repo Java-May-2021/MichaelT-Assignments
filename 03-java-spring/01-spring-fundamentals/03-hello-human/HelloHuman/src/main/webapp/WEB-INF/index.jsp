@@ -8,6 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>Java/Spring is better</p>
+<h1>Hello <c:out value="${name}"/>!</h1>
 </body>
 </html>
