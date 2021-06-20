@@ -45,8 +45,8 @@ public class BooksController {
         }
     }
    
-    @GetMapping("/books/{index}")
-   public String show(Model model, @PathVariable("index") Long id) {
+    @GetMapping("/books/{id}")
+   public String show(Model model, @PathVariable("id") Long id) {
     	Book book = bookService.findBook(id);
     	model.addAttribute("book", book);
     	return "showBook.jsp";
